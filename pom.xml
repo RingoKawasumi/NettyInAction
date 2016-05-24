@@ -8,6 +8,7 @@
     <packaging>pom</packaging>
     <name>Sample Code for Netty in Action</name>
     <modules>
+        <module>chapter2</module>
     </modules>
     <properties>
         <junit.version>4.11</junit.version>
@@ -22,11 +23,11 @@
                 <artifactId>netty-all</artifactId>
                 <version>${netty.version}</version>
             </dependency>
-            <dependency>
-                <groupId>nia</groupId>
-                <artifactId>utils</artifactId>
-                <version>2.0-SNAPSHOT</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>nia</groupId>-->
+                <!--<artifactId>utils</artifactId>-->
+                <!--<version>2.0-SNAPSHOT</version>-->
+            <!--</dependency>-->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
@@ -39,10 +40,10 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
         </dependency>
-        <dependency>
-            <groupId>nia</groupId>
-            <artifactId>utils</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>nia</groupId>-->
+            <!--<artifactId>utils</artifactId>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
