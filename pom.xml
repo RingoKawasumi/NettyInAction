@@ -18,6 +18,7 @@
         <module>chapter11</module>
         <module>chapter12</module>
         <module>utils</module>
+        <module>chapter9</module>
     </modules>
     <properties>
         <junit.version>4.11</junit.version>
